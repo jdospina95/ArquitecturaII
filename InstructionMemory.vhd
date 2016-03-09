@@ -13,7 +13,7 @@ end InstructionMemory;
 architecture insmemory_arch of InstructionMemory is
 type insmemory_array is array (NATURAL range <>) of std_logic_vector (31 downto 0);
 signal rom: insmemory_array:= (
-			x"0000000", x"000000"
+			x"0000000", x"000000" --x"instruccion", x"instruccion", etc
 			);
 
 begin
