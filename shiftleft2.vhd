@@ -7,4 +7,4 @@ end shiftleft2;
 
 architecture shiftleft2_arch of shiftleft2 is
 
-end shiftleft2
+end shiftleft2;
